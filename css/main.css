@@ -1,0 +1,52 @@
+.answer {
+    margin-top: 10%;
+    cursor: pointer;
+}
+#basic-create {
+    margin-top: 10%;
+}
+body {
+    text-align: center;
+}
+.confirm {
+    cursor: pointer;
+    /*margin-top: 10%;*/
+    /*float: left;*/
+}
+input:focus{
+    outline: none;
+}
+.method {
+    float: left;
+    margin-left: 15%;
+    font-size: 36px;
+    cursor: pointer;
+}
+#method-holder {
+    margin-left: 12%;
+    margin-top: 250px;
+}
+#search-input {
+    background-color: transparent;
+    border: none;
+    width: 93%;
+    letter-spacing: 6px;
+    display:inline-block;
+    text-align: center;
+}
+#search-input2 {
+    background-color: transparent;
+    border: none;
+    width: 93%;
+    letter-spacing: 6px;
+    display:inline-block;
+    text-align: center;
+}
+#welcome {
+    color: black;
+    font-size: 48px;
+    font-family: 'Wire One', sans-serif;
+    /*letter-spacing: 10px;*/
+}
+
+
