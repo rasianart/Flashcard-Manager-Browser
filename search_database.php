@@ -65,7 +65,7 @@ if ($result->num_rows > 0) {
     }
     echo json_encode($a);
 } else {
-    echo "0 results";
+    echo "0";
 }
 $conn->close();
 

@@ -2,16 +2,20 @@
     margin-top: 10%;
     cursor: pointer;
 }
+#basic {
+    margin-top: 10%;
+}
 #basic-create {
     margin-top: 10%;
 }
 body {
     text-align: center;
 }
-.confirm {
+#create {
+    margin-left: 26%;
+}
+.confirm, .confirm2, .confirm3, .confirm4 {
     cursor: pointer;
-    /*margin-top: 10%;*/
-    /*float: left;*/
 }
 input:focus{
     outline: none;
@@ -23,10 +27,15 @@ input:focus{
     cursor: pointer;
 }
 #method-holder {
-    margin-left: 12%;
     margin-top: 250px;
 }
-#search-input {
+.returns {
+    cursor: pointer;
+}
+#save-random {
+    margin-top: 3%;
+}
+#search-input, #search-input2, #search-input3, #search-input4 {
     background-color: transparent;
     border: none;
     width: 93%;
@@ -34,13 +43,8 @@ input:focus{
     display:inline-block;
     text-align: center;
 }
-#search-input2 {
-    background-color: transparent;
-    border: none;
-    width: 93%;
-    letter-spacing: 6px;
-    display:inline-block;
-    text-align: center;
+#search {
+    margin-top: 10%;
 }
 #welcome {
     color: black;
