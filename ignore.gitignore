@@ -1,6 +1,8 @@
-random_database_basic.php
-random_database_cloze.php
-save_database_basic.php
-save_database_cloze.php
+./random_database_basic.php
+./random_database_cloze.php
+./save_database_basic.php
+./save_database_cloze.php
+./search_database_basic.php
+./search_database_cloze.php
 node_modules
 .DS_Store
