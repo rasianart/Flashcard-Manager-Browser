@@ -1,5 +1,7 @@
 # Flashcard-Manager (Browser Version) (1.0)
 
+Access at 10.0.0.9
+
 Flashcard-Manager is a streamlined and intuitive process of creating, storing, and reading digital flashcards.
 
 Flashcard-Manager utilizes two methods of reading/storing: basic and cloze-delete
