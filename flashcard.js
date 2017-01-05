@@ -1,20 +1,20 @@
 class BasicFlashcard {
     constructor() {
         this.front,
-            this.back
+        this.back
     }
 };
 
 class ClozeFlashcard {
     constructor() {
         this.text,
-            this.cloze,
-            this.clozeDeleted = (questionInput) => {
-                let regExp = /\(([^)]+)\)/;
-                this.cloze = regExp.exec(questionInput);
-                this.cloze = this.cloze[0];
-                this.text = questionInput.replace(this.cloze, '...');
-            }
+        this.cloze,
+        this.clozeDeleted = (questionInput) => {
+            let regExp = /\(([^)]+)\)/;
+            this.cloze = regExp.exec(questionInput);
+            this.cloze = this.cloze[0];
+            this.text = questionInput.replace(this.cloze, '...');
+        }
     }
 };
 

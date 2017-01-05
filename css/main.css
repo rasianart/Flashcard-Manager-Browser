@@ -49,8 +49,11 @@ input:focus{
 #welcome {
     color: black;
     font-size: 48px;
-    font-family: 'Wire One', sans-serif;
-    /*letter-spacing: 10px;*/
+    /*font-family: 'Wire One', sans-serif;*/
+    /*font-family: 'Kumar One', cursive;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    color: grey;
+    font-weight: lighter;
 }
 
 
